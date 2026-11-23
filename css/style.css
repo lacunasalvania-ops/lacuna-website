@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+.site-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 25px 24px;
+    background-color: #3B2A20;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #FAF3E8;
+}
+
+.brand-logo {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+
+.brand-name {
+    font-family: "Playfair Display", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list a {
+    color: #FAF3E8;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 4px 0;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-list a:hover {
+    color: #C98B4B;
+    border-bottom-color: #C98B4B;
+}
