@@ -54,6 +54,10 @@ h2::after {
 
 .site-header {
     display: flex;
+    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 100;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -313,9 +317,7 @@ h2::after {
     transition: transform .2s;
 }
 
-.showcase-grid figure:hover{
-    transform: translateY(-4px);
-}
+.showcase-grid figure:hover{transform: translateY(-4px);}
 
 .showcase-grid img{
     display: block;
