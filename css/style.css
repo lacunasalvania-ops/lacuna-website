@@ -333,3 +333,46 @@ h2::after {
 @media (max-width: 600px){
     .specials-inner{ flex-direction: column; text-align: center;}
 }
+
+.contact { text-align: center;}
+
+.contact-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}   
+
+.contact-list li {margin-bottom: 8px;}
+
+.site-footer {
+  background-color: #3B2A20;
+  color: #FAF3E8;
+  text-align: center;
+  padding: 28px 0;
+  font-size: 0.95rem;
+}
+
+site-footer p { margin: 4px 0; }
+.site-footer a { color: #C98B4B; }
+
+@media (max-width: 760px) {
+  .nav-toggle { display: block; }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #3B2A20;
+    padding: 8px 20px 16px;
+  }
+
+  nav.open { display: block; }
+  nav ul { flex-direction: column; }
+
+  .hero { padding: 48px 0 90px; }
+  .hero h1 { font-size: 2.4rem; }
+  .hero-wave { height: 44px; }
+  .brand-name { font-size: 1.15rem; }
+}
